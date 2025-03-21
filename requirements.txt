@@ -1,0 +1,12 @@
+# requirements.txt
+#1 python -m venv venv
+#2 venv\Scripts\activate
+#3 pip install -r requirements.txt
+Pillow>=9.0.0
+tk>=0.1.0
+rembg>=2.0.0
+python-dotenv>=1.0.0
+onnxruntime>=1.16.0
+ttkthemes>=3.2.2
+
+#4 python app.py
