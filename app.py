@@ -194,7 +194,7 @@ class ImageProcessorApp:
         Label(purchase_window, text="No valid license found.", font=("Helvetica", 12)).pack(pady=10)
         Label(purchase_window, text="Click the link below to purchase a license:", font=("Helvetica", 10)).pack(pady=5)
 
-        purchase_url = f"{WEB_APP_URL}/purchase/ImageProcessor"
+        purchase_url = f"{WEB_APP_URL}/"
         link_label = Label(purchase_window, text=purchase_url, font=("Helvetica", 10), fg="blue", cursor="hand2")
         link_label.pack(pady=5)
         link_label.bind("<Button-1>", lambda e: webbrowser.open_new(purchase_url))
