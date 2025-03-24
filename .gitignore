@@ -11,3 +11,4 @@ __pycache__/
 
 # Ignore environment variables
 .env
+.license.json
